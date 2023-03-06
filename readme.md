@@ -7,7 +7,7 @@
 * [INTERVIEW](program-details/week-1/interview.md)
 
 ---
-## WEEK 01
+## WEEK 02
 * [TOPICS](program-details/week-2/topics.md)
 * [TASKS](program-details/week-2/tasks.md)
 
