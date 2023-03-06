@@ -1,0 +1,47 @@
+package com.mastercode.week02.practice;
+
+import java.util.Scanner;
+
+public class Task3V8 {
+
+    // SOLID
+    // Single Responsibility Principle
+    public static void main(String[] args) {
+        start();
+    }
+
+    static void start() {
+        int num = input();
+        print(num);
+    }
+
+    static int input() {
+        int num;
+
+        try (Scanner scanner = new Scanner(System.in)) {
+            num = scanner.nextInt();
+        }
+
+        return num;
+    }
+
+    static void print(int number) {
+        System.out.println(firstAndLastDigitSum(number));
+    }
+
+    static int firstAndLastDigitSum(int number) {
+        return getLastDigit(number) + getFirstDigit(number);
+    }
+
+    static int getLastDigit(int number) {
+        return number % 10;
+    }
+
+    static int getFirstDigit(int number) {
+        while (number >= 10) {
+            number = number / 10;
+        }
+
+        return number;
+    }
+}
