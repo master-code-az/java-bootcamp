@@ -5,9 +5,8 @@
     c. System.out.println(3 + "4");
 
 ---
-####  2. Write an algorithm to settle the following question:
-A bank account starts out with $10,000. Interest is compounded monthly at 6 percent per year (0.5 percent per months). 
-Every month, $500 is withdrawn to meet college expenses. After how many years is the account depleted?
+####  2. Write an java program that should print Hello world in quotes Output: "Hello World"
+
 
 ####  3. Write a program in java NamePrinter that displays your name inside a box on the console screen, like this:
     +----+
