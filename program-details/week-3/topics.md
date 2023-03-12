@@ -1,70 +1,63 @@
 ## 0️⃣1️⃣ Object and Class
 
-* 
 * fields, attributes
-* this keyword
+
+    `[access_modifier] [static] [final] type name [= initial value] ;`
+
 * create class in one class
 * create class in different class
-* methods  (emr)
-
-
----
-## 0️⃣2️⃣ Switch case
-* if-else və switch case
-* default
-* Evolution of switch (məqalə)
-
----
-## 0️⃣3️⃣ For loop
-
-![img.png](imgs/for_loop.png)
-
-    for (initialExpression; testExpression; updateExpression) {
-    // body of the loop
-    }
-
-* 1-10 2-ye vurma cedveli vurma cədvəli
-* nested for
-* 10x10 vurma cedveli
-* şifrə tapmaq
+* stack and heap
+* declare class but not create and call the fields (null.smt)
+* static
+  * fields
+  * methods
+  * declare class and call the static fields and methods
+  * when create static method (does it use any instance variable or instance methods? if no create static method)
+* methods (əmr)
+* this keyword
+* constructors
+  * new keyword
+  * default constructor
+    * write own default
+    * test it with print
+  * multiple constructor 
+  * no-arg constructor
+  * calling a constructor from a constructor this()
+  * task 
+    * find area of rectangle
 
 ---
-## 0️⃣4️⃣ While loop
+## 0️⃣2️⃣ Guess Game
 
-![img.png](imgs/while_loop.png)
-    
-    while (testExpression){
-        // statements
-        update_expression;
-    }
-
-* n ədədin cəminin tapılması
-
-
-## 0️⃣5️⃣ break və continue
-
-
-## 0️⃣6️⃣ Praktiki çalışmalar
-
-1. Number Palindrome [Palindrome](../../src/main/java/com/mastercode/week02/practice/PalindromeNumber.java)
-2. Ədədin sadə bölənləri  [Sade Bolenler](../../src/main/java/com/mastercode/week02/practice/SadeBolenler.java)
-3. Birinci və sonuncu ədədin cəminin çapı [Task 3](../../src/main/java/com/mastercode/week02/practice/Task3.java)
-4. Kalkulator +,-, \, *, %
+---
+## 0️⃣3️⃣ Encapsulation
+![img_1.png](imgs/encapsulation.png)
+* access modifiers
+* package problem and solution
+* problem (-, null)
+* solution
+* "sensitive" data is hidden from users
+* private
+* getter
+* setter
 
 ---
 ### Resources
 
 #### Məqalələr
-* [Java User Input (Scanner)](https://www.w3schools.com/java/java_user_input.asp)
-* [Java Switch Statement](https://www.baeldung.com/java-switch)
-* [The Evolution Of Switch Statement From Java 7 to Java 17](https://medium.com/@javatechie/the-evolution-of-switch-statement-from-java-7-to-java-17-4b5eee8d29b7)
-* [Java for Loop](https://www.programiz.com/java-programming/for-loop)
-* [Java while and do...while Loop](https://www.programiz.com/java-programming/do-while-loop)
-* [Java break Statement](https://www.programiz.com/java-programming/break-statement)
-* [Java continue Statement](https://www.programiz.com/java-programming/continue-statement)
+* [Objects and Classes in Java](https://www.javatpoint.com/object-and-class-in-java)
+* [What is Class and Object in Java OOPS? Learn with Example](https://www.guru99.com/java-oops-class-objects.html)
+* [Java Constructors](https://www.programiz.com/java-programming/constructors)
+* [A Guide to the Static Keyword in Java](https://www.baeldung.com/java-static)
+* [Providing Constructors for Your Classes](https://docs.oracle.com/javase/tutorial/java/javaOO/constructors.html)
+* [Using the this Keyword](https://docs.oracle.com/javase/tutorial/java/javaOO/thiskey.html)
+* [Encapsulation In JAVA](https://medium.com/@imtiazahmedburiro/encapsulation-in-java-16a38772e9af)
+* [What is Encapsulation in Java and How to Implement It](https://www.simplilearn.com/tutorials/java-tutorial/java-encapsulation)
+* [Encapsulation in Java](https://www.geeksforgeeks.org/encapsulation-in-java/)
+* [Access Modifiers in Java](https://www.javatpoint.com/access-modifiers)
 
 #### Videolar
-* [How Do We Get User Input in Java?](https://www.youtube.com/watch?v=bI7kQq9cjmQ)
-* [Switch Statement in Java](https://www.youtube.com/watch?v=IrQKDdptiw8)
-* [Loops in Java](https://www.youtube.com/watch?v=hs45eeZ326U&ab_channel=Simplilearn)
-* [Pattern ilə bağlı alqoritmik məsələlərin həlli](https://www.youtube.com/watch?v=lsOOs5J8ycw&t=2164s&ab_channel=KunalKushwaha)
+* [Java Classes & Objects](https://www.youtube.com/watch?v=IUqKuGNasdM)
+* [Introduction to Classes and Objects ](https://www.youtube.com/watch?v=8yjkWGRlUmY&t=319s)
+* [Java Constructors - Full Tutorial](https://www.youtube.com/watch?v=pgBk8HC7jbU)
+* [This Keyword in Java Full Tutorial - How to Use "this"](https://www.youtube.com/watch?v=ETLHbHenW44)

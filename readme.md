@@ -12,3 +12,9 @@
 * [TASKS](program-details/week-2/tasks.md)
 
 ---
+## WEEK 03
+* [TOPICS](program-details/week-3/topics.md)
+* [TASKS](program-details/week-3/tasks.md)
+
+---
+
