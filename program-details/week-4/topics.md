@@ -1,18 +1,9 @@
 ## 0️⃣1️⃣ Inheritance
 
-
----
-## 0️⃣2️⃣ Guess Game
-
 * problem create classes separately
 * slide
 * solution
 * a class can only extends one class
-* implement all arguments
-* super, super(), this, this()
-  * Shape x,y
-    * Rectangle width, height and play around it (bad practice and best practice)
-* java Object class
 * type of inheritance
   ![img.png](imgs/type-of-inheritabce.png)
 
@@ -21,7 +12,7 @@
 
 
 ---
-## 0️⃣3️⃣ Polymorphism
+## 0️⃣2️⃣ Polymorphism
 ![img.png](imgs/polymorphism.png)
 * Example animal -> cat, dog, cow -> make sounds
 
@@ -34,17 +25,17 @@ Type of polymorphism
 
 ![img.png](imgs/overridingandloading.png)
 
+# 0️⃣3️⃣ Object class
+* java Object class
+* equals and ==
 
 ---
 ### Resources
 
 #### Məqalələr
 * [Inheritance](https://www.digitalocean.com/community/tutorials/inheritance-java-example)
+* [== and .equals()](https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java)
 * [Polymorphism](https://medium.com/lets-do-it-pl/what-is-polymorphism-and-what-are-the-advantages-of-it-8947a79125e8)
 * [Polymorphism](https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html)
 
 #### Videolar
-* [How Do We Get User Input in Java?](https://www.youtube.com/watch?v=bI7kQq9cjmQ)
-* [Switch Statement in Java](https://www.youtube.com/watch?v=IrQKDdptiw8)
-* [Loops in Java](https://www.youtube.com/watch?v=hs45eeZ326U&ab_channel=Simplilearn)
-* [Pattern ilə bağlı alqoritmik məsələlərin həlli](https://www.youtube.com/watch?v=lsOOs5J8ycw&t=2164s&ab_channel=KunalKushwaha)

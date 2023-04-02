@@ -9,8 +9,5 @@
         <module name="java-bootcamp" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-bootcamp-01" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>
